@@ -20,12 +20,14 @@ export default function PrivacyPolicy() {
             <div className="w-full pl-3">
               <div className="text-md font-bold text-black">- Introduction</div>
               <div className="pl-3 text-sm">
-                This Privacy Policy explains how LearningPost Education ("we",
-                "us", "our") handles your personal information when you use our
-                website www.learningpost.ng (the "Website") and our LearningPost
-                Mobile Application (the "App"). We are committed to protecting
-                your privacy and handling your information responsibly. Please
-                read this policy carefully to understand our privacy practices.
+                This Privacy Policy explains how LearningPost Education
+                (&quot;we&quot;, &quot;us&quot;, &quot;our&quot;) handles your
+                personal information when you use our website
+                www.learningpost.ng (the &quot;Website&quot;) and our
+                LearningPost Mobile Application (the &quot;App&quot;). We are
+                committed to protecting your privacy and handling your
+                information responsibly. Please read this policy carefully to
+                understand our privacy practices.
               </div>
             </div>
 

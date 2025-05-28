@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import DownloadButtons from "../DownloadButtons";
 import { navLinks } from "./Navbar";
 
@@ -30,7 +31,7 @@ export default function Footer() {
                 {navLinks().map((navLink, index) => {
                   return (
                     <li key={index} className="">
-                      <a href={navLink.href}>{navLink.text}</a>
+                      <Link href={navLink.href}>{navLink.text}</Link>
                     </li>
                   );
                 })}
@@ -46,12 +47,12 @@ export default function Footer() {
               </h3>
               <p className="text-md text-black/60 mt-2">
                 Email:{" "}
-                <a
+                <Link
                   href="mailto:support@petropost.ng"
                   className="underline italic"
                 >
                   support@petropost.ng
-                </a>
+                </Link>
               </p>
             </div>
           </div>

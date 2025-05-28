@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 export default function InnovativeTools() {
   const tools = [
     {
@@ -98,7 +100,7 @@ const ToolCard = ({
   title,
   description,
 }: {
-  icon: any;
+  icon: JSX.Element;
   title: string;
   description: string;
 }) => {

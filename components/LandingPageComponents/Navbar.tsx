@@ -2,6 +2,7 @@
 import Image from "next/image";
 import logo from "@/assets/images/logo.png";
 import { useState } from "react";
+import Link from "next/link";
 
 export const navLinks = () => {
   return [
@@ -24,9 +25,9 @@ export default function Navbar() {
     >
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <a href="/" className="p-1">
+        <Link href="/" className="p-1">
           <Image src={logo} alt="LearningPost Logo" height={70} />
-        </a>
+        </Link>
 
         {/* Desktop Navigation Links */}
         <div className="hidden lg:flex space-x-6">
@@ -103,15 +104,15 @@ function NavLink({
 }: {
   href: string;
   text: string;
-  onClick: Function;
+  onClick: () => void;
 }) {
   return (
-    <a
+    <Link
       href={href}
       onClick={() => onClick()}
       className="text-gray-700 hover:text-blue-600 font-medium transition duration-300 rounded-md p-2"
     >
       {text}
-    </a>
+    </Link>
   );
 }

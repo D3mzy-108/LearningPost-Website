@@ -20,20 +20,21 @@ export default function TermsAndConditions() {
             <div className="w-full pl-3">
               <div className="text-md font-bold text-black">- Introduction</div>
               <div className="pl-3 text-sm">
-                www.learningpost.ng ("LearningPost", "We") is a website and app
-                that provides educational content to students on smartphones,
-                tablets, and computers. Our goal is to make learning accessible
-                regardless of internet availability or costs. These Terms
-                explain the rules for using LearningPost's website and app (the
-                "Services"). By signing up or using our Services, you agree to
-                follow these Terms. If you don't agree, don't use LearningPost.
-                The Terms apply to anyone who visits, browses, accesses, or uses
-                the Services ("You" or "User"). If you are under 18, you need
-                permission from your parents or guardian before using
-                LearningPost. Read these Terms and our Privacy Policy carefully
-                before using LearningPost. The Terms take priority over any
-                other policies about the Services. Section headings are just for
-                organization and have no legal meaning.
+                www.learningpost.ng (&quot;LearningPost&quot;, &quot;We&quot;)
+                is a website and app that provides educational content to
+                students on smartphones, tablets, and computers. Our goal is to
+                make learning accessible regardless of internet availability or
+                costs. These Terms explain the rules for using
+                LearningPost&apos;s website and app (the &quot;Services&quot;).
+                By signing up or using our Services, you agree to follow these
+                Terms. If you don&apos;t agree, don&apos;t use LearningPost. The
+                Terms apply to anyone who visits, browses, accesses, or uses the
+                Services (&quot;You&quot; or &quot;User&quot;). If you are under
+                18, you need permission from your parents or guardian before
+                using LearningPost. Read these Terms and our Privacy Policy
+                carefully before using LearningPost. The Terms take priority
+                over any other policies about the Services. Section headings are
+                just for organization and have no legal meaning.
               </div>
             </div>
 
@@ -59,19 +60,19 @@ export default function TermsAndConditions() {
               </div>
               <div className="pl-3 text-sm">
                 By signing up for LearningPost, you agree to follow these Terms
-                and the Privacy Policy. If you don't accept them, you must not
-                sign up. If you're signing up on behalf of someone under 18,
-                they must follow the Terms too. Please read the Terms carefully.
-                Just by using, accessing or browsing LearningPost, you accept
-                the Terms and agree to be legally bound by them. When using
-                LearningPost's third-party services like email, you also agree
-                to those companies' posted terms. Signing up for any
-                LearningPost Service means accepting those additional terms too.
-                You can get a copy of these Terms by emailing
-                help@learningpost.ng with the subject "Request for Terms of Use
-                Agreement". LearningPost may also post guidelines and rules for
-                specific services. Those are incorporated into these Terms when
-                posted.
+                and the Privacy Policy. If you don&apos;t accept them, you must
+                not sign up. If you&apos;re signing up on behalf of someone
+                under 18, they must follow the Terms too. Please read the Terms
+                carefully. Just by using, accessing or browsing LearningPost,
+                you accept the Terms and agree to be legally bound by them. When
+                using LearningPost&apos;s third-party services like email, you
+                also agree to those companies&apos; posted terms. Signing up for
+                any LearningPost Service means accepting those additional terms
+                too. You can get a copy of these Terms by emailing
+                help@learningpost.ng with the subject &quot;Request for Terms of
+                Use Agreement&quot;. LearningPost may also post guidelines and
+                rules for specific services. Those are incorporated into these
+                Terms when posted.
               </div>
             </div>
 
@@ -108,7 +109,8 @@ export default function TermsAndConditions() {
                 when due. We try to ensure accurate pricing on our website and
                 materials. But prices can change. If the price changes before we
                 process your order, we will notify you. You agree to pay any
-                applicable taxes for using LearningPost's services and products.
+                applicable taxes for using LearningPost&apos;s services and
+                products.
               </div>
             </div>
 
@@ -131,14 +133,14 @@ export default function TermsAndConditions() {
             <div className="w-full pl-3">
               <div className="text-md font-bold text-black">- User Conduct</div>
               <div className="pl-3 text-sm">
-                Use LearningPost only for lawful purposes. Don't post, send, or
-                share anything unlawful, harassing, abusive, defamatory, vulgar,
-                obscene, indecent, threatening, invasive of privacy or rights,
-                or encouraging of illegal conduct. Don't restrict or inhibit
-                other users from using and enjoying LearningPost. For example,
-                don't use it to solicit users to join other competing services.
-                LearningPost can deny you access to the Services without notice
-                for: <br />
+                Use LearningPost only for lawful purposes. Don&apos;t post,
+                send, or share anything unlawful, harassing, abusive,
+                defamatory, vulgar, obscene, indecent, threatening, invasive of
+                privacy or rights, or encouraging of illegal conduct. Don&apos;t
+                restrict or inhibit other users from using and enjoying
+                LearningPost. For example, don&apos;t use it to solicit users to
+                join other competing services. LearningPost can deny you access
+                to the Services without notice for: <br />
                 - Unauthorized access or use <br />
                 - Attempting to assign or transfer LearningPost rights granted
                 to you <br />
@@ -151,29 +153,29 @@ export default function TermsAndConditions() {
     <!-- ========================================================================== --> */}
             <div className="w-full pl-3">
               <div className="text-md font-bold text-black">
-                - Using LearningPost's Services
+                - Using LearningPost&apos;s Services
               </div>
               <div className="pl-3 text-sm">
                 Use LearningPost only for your own personal, non-commercial
-                purposes. Don't use the website, app, services or products for
-                any commercial purposes. Here are some specific restrictions:{" "}
-                <br />
-                - Don't use, copy or share any materials or content in a way
-                that violates copyright, trademarks, patents or other
+                purposes. Don&apos;t use the website, app, services or products
+                for any commercial purposes. Here are some specific
+                restrictions: <br />
+                - Don&apos;t use, copy or share any materials or content in a
+                way that violates copyright, trademarks, patents or other
                 intellectual property rights of the owner. <br />
-                - Don't upload files containing viruses, malware or other
+                - Don&apos;t upload files containing viruses, malware or other
                 harmful programs. <br />
-                - Don't falsify or delete copyright information like author
+                - Don&apos;t falsify or delete copyright information like author
                 names on materials uploaded to our website/app.
                 <br />
-                - Don't use bots, scrapers or other automated tools to monitor,
-                copy or collect data from our website/app.
+                - Don&apos;t use bots, scrapers or other automated tools to
+                monitor, copy or collect data from our website/app.
                 <br />
-                - Don't restrict or stop other users from using and enjoying
-                LearningPost's services or products. <br />
+                - Don&apos;t restrict or stop other users from using and
+                enjoying LearningPost&apos;s services or products. <br />
                 - Follow any posted rules or codes of conduct for specific
                 services or products. <br />
-                - Follow all applicable laws and regulations. <br />- Don't
+                - Follow all applicable laws and regulations. <br />- Don&apos;t
                 share user account information or usage data with others. <br />
                 We can review and remove any prohibited content posted by users,
                 and suspend accounts if needed.
@@ -194,21 +196,22 @@ export default function TermsAndConditions() {
                 services, website and apps. The website content including code,
                 text, graphics, logos, and images is protected by copyright and
                 other laws. All software and individual articles or elements
-                remain LearningPost's property, excluding some third party
-                materials. Don't use any trademarks or logos without the owner's
-                written consent. Mention of third party products or services
-                does not imply endorsement by LearningPost. You must follow all
-                copyright laws and any additional copyright restrictions on our
-                website. You acknowledge the content is developed and compiled
-                by LearningPost and constitutes our intellectual property. You
-                agree to protect LearningPost's proprietary rights during and
-                after using our services. Notify us promptly of any unauthorized
-                access or use of our website that you become aware of. All
-                rights and title to our website and services are reserved by
-                LearningPost for our exclusive use. Don't copy or use our
-                website or content without our written approval. Don't upload or
-                share any copyright-protected content on our website without the
-                owner's express permission. You are solely liable for any
+                remain LearningPost&apos;s property, excluding some third party
+                materials. Don&apos;t use any trademarks or logos without the
+                owner&apos;s written consent. Mention of third party products or
+                services does not imply endorsement by LearningPost. You must
+                follow all copyright laws and any additional copyright
+                restrictions on our website. You acknowledge the content is
+                developed and compiled by LearningPost and constitutes our
+                intellectual property. You agree to protect LearningPost&apos;s
+                proprietary rights during and after using our services. Notify
+                us promptly of any unauthorized access or use of our website
+                that you become aware of. All rights and title to our website
+                and services are reserved by LearningPost for our exclusive use.
+                Don&apos;t copy or use our website or content without our
+                written approval. Don&apos;t upload or share any
+                copyright-protected content on our website without the
+                owner&apos;s express permission. You are solely liable for any
                 infringement or harm from such submissions. By sharing any
                 materials with us, you grant us a royalty-free license to use,
                 reproduce, modify, publish, and distribute it worldwide in all
@@ -244,22 +247,22 @@ export default function TermsAndConditions() {
               <div className="pl-3 text-sm">
                 You can cancel your subscription anytime through your account.
                 We will then deactivate your account and delete materials you
-                uploaded while using our services. Once confirmed, you won't be
-                charged again, except for any prior unpaid billing periods. We
-                can terminate your subscription at the end of a billing cycle
-                with 14 days notice. We may also terminate immediately if:{" "}
-                <br />
+                uploaded while using our services. Once confirmed, you
+                won&apos;t be charged again, except for any prior unpaid billing
+                periods. We can terminate your subscription at the end of a
+                billing cycle with 14 days notice. We may also terminate
+                immediately if: <br />
                 - You breach these Terms <br />
-                - You don't pay immediately after due date <br />
-                - We're investigating suspected misconduct by you <br />
+                - You don&apos;t pay immediately after due date <br />
+                - We&apos;re investigating suspected misconduct by you <br />
                 - Your use causes legal liability or disrupts others <br />
                 - You use our services for prohibited purposes <br />
-                If we limit or terminate services, we'll try to notify you and
-                let you export your content. But for Terms violations or illegal
-                acts, we may immediately suspend your account without notice.
-                We'll try to narrowly limit suspensions to resolve issues
-                promptly. We may keep your content after termination, but have
-                no obligation to do so.
+                If we limit or terminate services, we&apos;ll try to notify you
+                and let you export your content. But for Terms violations or
+                illegal acts, we may immediately suspend your account without
+                notice. We&apos;ll try to narrowly limit suspensions to resolve
+                issues promptly. We may keep your content after termination, but
+                have no obligation to do so.
               </div>
             </div>
 
@@ -290,29 +293,30 @@ export default function TermsAndConditions() {
               <div className="pl-3 text-sm">
                 You use LearningPost at your own risk - we make no warranties
                 that it will be uninterrupted, timely, secure or error free. We
-                also don't warrant any results obtained from using LearningPost.
-                The website and services are provided "as is" without warranties
-                of any kind except those required by law. The above disclaimers
-                apply to any damages caused by performance failures, errors,
-                interruptions, defects, delays, viruses or unauthorized access.
-                We try to provide accurate information but don't guarantee it.
-                We are not liable for any errors or inaccuracies. Neither we nor
-                third parties make any warranties about suitability,
-                reliability, accuracy or completeness of information on
-                LearningPost. We may edit or remove content at any time.
-                Opinions expressed are not necessarily LearningPost's. We're not
-                responsible for such opinions. We may contact you by SMS, email
-                or calls to provide updates, notifications and product
-                information. By registering, you agree to receive these periodic
-                messages. We may contact you via provided numbers or emails to
-                offer our services. You expressly permit us to contact you and
-                any student users this way. Our products and services only work
-                with certain compatible devices, tablets or hardware. We're not
+                also don&apos;t warrant any results obtained from using
+                LearningPost. The website and services are provided &quot;as
+                is&quot; without warranties of any kind except those required by
+                law. The above disclaimers apply to any damages caused by
+                performance failures, errors, interruptions, defects, delays,
+                viruses or unauthorized access. We try to provide accurate
+                information but don&apos;t guarantee it. We are not liable for
+                any errors or inaccuracies. Neither we nor third parties make
+                any warranties about suitability, reliability, accuracy or
+                completeness of information on LearningPost. We may edit or
+                remove content at any time. Opinions expressed are not
+                necessarily LearningPost&apos;s. We&apos;re not responsible for
+                such opinions. We may contact you by SMS, email or calls to
+                provide updates, notifications and product information. By
+                registering, you agree to receive these periodic messages. We
+                may contact you via provided numbers or emails to offer our
+                services. You expressly permit us to contact you and any student
+                users this way. Our products and services only work with certain
+                compatible devices, tablets or hardware. We&apos;re not
                 obligated to provide services for incompatible devices, and
-                won't be responsible for defects with devices used to access our
-                services. Minors must use LearningPost through their legal
-                guardian or parent, who agrees to these Terms. We're not
-                responsible for consequences of minors using LearningPost
+                won&apos;t be responsible for defects with devices used to
+                access our services. Minors must use LearningPost through their
+                legal guardian or parent, who agrees to these Terms. We&apos;re
+                not responsible for consequences of minors using LearningPost
                 without parental consent. We may terminate a subscription if we
                 discover a user is under 18.
               </div>
@@ -324,17 +328,17 @@ export default function TermsAndConditions() {
             <div className="w-full pl-3">
               <div className="text-md font-bold text-black">- Other Terms</div>
               <div className="pl-3 text-sm">
-                We're not liable for any failure or delay due to events beyond
-                our control like natural disasters, service outages, or supplier
-                failures. Notify us within 7 days if you're affected.
-                Third-party links may take you outside our website. We're not
-                responsible for those third-party sites. These Terms are
-                governed by Nigerian law. You agree to defend and indemnify
-                LearningPost against claims and expenses from your use of our
-                services. References to companies and events are fictional. No
-                association is intended or should be inferred. These Terms and
-                our Privacy Policy are the entire agreement between you and
-                LearningPost.
+                We&apos;re not liable for any failure or delay due to events
+                beyond our control like natural disasters, service outages, or
+                supplier failures. Notify us within 7 days if you&apos;re
+                affected. Third-party links may take you outside our website.
+                We&apos;re not responsible for those third-party sites. These
+                Terms are governed by Nigerian law. You agree to defend and
+                indemnify LearningPost against claims and expenses from your use
+                of our services. References to companies and events are
+                fictional. No association is intended or should be inferred.
+                These Terms and our Privacy Policy are the entire agreement
+                between you and LearningPost.
               </div>
             </div>
 
@@ -344,18 +348,18 @@ export default function TermsAndConditions() {
             <div className="w-full pl-3">
               <div className="text-md font-bold text-black">- Using Akada</div>
               <div className="pl-3 text-sm">
-                Akada is LearningPost's AI-powered chatbot tutor. It uses
+                Akada is LearningPost&apos;s AI-powered chatbot tutor. It uses
                 artificial intelligence to try to provide helpful educational
-                information. While we aim for accuracy, Akada's responses are
-                generated by machines and may sometimes be incomplete or
+                information. While we aim for accuracy, Akada&apos;s responses
+                are generated by machines and may sometimes be incomplete or
                 outdated. You need to verify any information and use your own
                 judgment. <br />
                 {/* <!-- YOUR RESPONSIBILITIES --> */}
                 <span className="font-medium">- Your Responsibilities</span>
                 <div className="pl-2">
-                  You are fully responsible for how you use Akada. Don't engage
-                  in any activity that could harm or disrupt the chatbot. This
-                  includes spreading malware, hacking, or breaking laws.
+                  You are fully responsible for how you use Akada. Don&apos;t
+                  engage in any activity that could harm or disrupt the chatbot.
+                  This includes spreading malware, hacking, or breaking laws.
                 </div>
                 {/* <!-- NO GUARANTEE OF RESULTS --> */}
                 <span className="font-medium">- No Guarantee of Results</span>
@@ -377,9 +381,9 @@ export default function TermsAndConditions() {
               </div>
               <div className="pl-3 text-sm">
                 All LearningPost content including text, images, videos and
-                other materials belongs to LearningPost or its licensors. Don't
-                copy, modify or distribute any content without written
-                permission.
+                other materials belongs to LearningPost or its licensors.
+                Don&apos;t copy, modify or distribute any content without
+                written permission.
               </div>
             </div>
 

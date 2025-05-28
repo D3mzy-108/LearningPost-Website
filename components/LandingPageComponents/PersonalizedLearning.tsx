@@ -19,13 +19,9 @@ export default function PersonalizedLearning() {
           </div>
           <div className="w-full max-w-3xl mx-auto">
             <p className="text-md text-black/80">
-              At LearningPost, we believe that every student deserves access to
-              quality education tailored to their individual needs. Our platform
-              is designed to empower learners of all ages and backgrounds to
-              unlock their full potential and achieve academic success. Whether
-              you're a student, teacher, or parent, LearningPost provides the
-              tools, resources, and support you need to thrive in today's
-              rapidly changing educational landscape.
+              {
+                "At LearningPost, we believe that every student deserves access to quality education tailored to their individual needs. Our platform is designed to empower learners of all ages and backgrounds to unlock their full potential and achieve academic success. Whether you're a student, teacher, or parent, LearningPost provides the tools, resources, and support you need to thrive in today's rapidly changing educational landscape."
+              }
             </p>
           </div>
         </div>

@@ -1,9 +1,9 @@
 "use client";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { faq } from "@/utils/urls.json";
 
 export default function FAQ() {
-  const toggleQuestions = (e: any) => {
+  const toggleQuestions = (e: React.MouseEvent<HTMLDivElement>) => {
     if (e.target == null) return;
     //   var target = (e.target as HTMLElement).getAttribute("data-target");
     const sibling = (e.target as HTMLElement).nextSibling;
