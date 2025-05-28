@@ -15,7 +15,7 @@ export default function Banner() {
       >
         <div className="w-full max-w-lg mx-auto text-center flex flex-col items-center">
           <h1
-            className="text-3xl md:text-4xl lg:text-5xl text-black font-semibold"
+            className="text-3xl md:text-4xl lg:text-5xl text-black font-bold"
             style={{
               lineHeight: "3.5rem",
             }}
