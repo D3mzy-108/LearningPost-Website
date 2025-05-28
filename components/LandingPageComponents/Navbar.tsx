@@ -3,21 +3,24 @@ import Image from "next/image";
 import logo from "@/assets/images/logo.png";
 import { useState } from "react";
 
+export const navLinks = () => {
+  return [
+    { href: "/#features", text: "Features" },
+    { href: "/our-story", text: "Our Story" },
+    { href: "/faq", text: "FAQ" },
+    { href: "/terms-and-conditions", text: "T&C" },
+    { href: "/privacy-policy", text: "Privacy Policy" },
+    { href: "#contacts", text: "Contacts" },
+  ];
+};
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const navLinks = [
-    { href: "/", text: "Features" },
-    { href: "/", text: "Our Story" },
-    { href: "/", text: "FAQ" },
-    { href: "/", text: "T&C" },
-    { href: "/", text: "Privacy Policy" },
-    { href: "/", text: "Contacts" },
-  ];
 
   return (
     <nav
       className="bg-white/10 pt-1
-     px-0 md:pl-2 lg:pl-8 md:pr-6 lg:pr-12 sticky top-0 z-50"
+     px-0 md:pl-2 lg:pl-8 md:pr-6 lg:pr-12"
     >
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
@@ -27,7 +30,7 @@ export default function Navbar() {
 
         {/* Desktop Navigation Links */}
         <div className="hidden lg:flex space-x-6">
-          {navLinks.map((navLink, index) => {
+          {navLinks().map((navLink, index) => {
             return (
               <NavLink
                 key={index}
@@ -76,7 +79,7 @@ export default function Navbar() {
       {isOpen && (
         <div className="lg:hidden mt-4 bg-white border-t border-gray-200 py-4">
           <div className="flex flex-col items-center space-y-4">
-            {navLinks.map((navLink, index) => {
+            {navLinks().map((navLink, index) => {
               return (
                 <NavLink
                   key={index}

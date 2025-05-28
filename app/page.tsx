@@ -1,13 +1,17 @@
-import AnimatedBackground from "@/components/animated-background";
 import Banner from "@/components/LandingPageComponents/Banner";
+import Features from "@/components/LandingPageComponents/Features";
+import InnovativeTools from "@/components/LandingPageComponents/InnovativeTools";
+import PersonalizedLearning from "@/components/LandingPageComponents/PersonalizedLearning";
+import Testimonies from "@/components/LandingPageComponents/Testimonies";
 
 export default function Home() {
   return (
     <>
-      <AnimatedBackground />
-      <div className="w-full absolute top-0 left-0 z-1">
-        <Banner />
-      </div>
+      <Banner />
+      <InnovativeTools />
+      <PersonalizedLearning />
+      <Features />
+      <Testimonies />
     </>
   );
 }

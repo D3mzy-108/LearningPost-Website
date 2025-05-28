@@ -5,7 +5,7 @@ export default function AnimatedBackground() {
     <div className="w-full h-[100vh] fixed z-0">
       {/* FIRST CONTAINER */}
       <div
-        className="w-[200px] absolute -top-6 left-0 aspect-square bg-[#4c8be3] rounded-full"
+        className="w-[150px] md:w-[200px] absolute -top-0 left-0 aspect-square bg-[#4c8be3] rounded-md moving-bg"
         style={{
           boxShadow: "0 0 0 100px #4c8be3",
         }}
@@ -13,7 +13,7 @@ export default function AnimatedBackground() {
 
       {/* SECOND CONTAINER */}
       <div
-        className="w-[200px] absolute -bottom-0 right-0 aspect-square bg-[#4c54e3] rounded-full"
+        className="w-[150px] md:w-[200px] absolute -bottom-0 right-0 aspect-square bg-[#4c54e3] rounded-md moving-bg"
         style={{
           boxShadow: "0 0 0 100px #4c54e3",
         }}

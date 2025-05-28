@@ -1,3 +1,4 @@
+"use client";
 import playStoreButton from "@/assets/images/playstore-btn.png";
 import appStoreButton from "@/assets/images/applestore-btn.png";
 import Image from "next/image";
