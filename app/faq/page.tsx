@@ -9,7 +9,7 @@ export default function FAQ() {
     const sibling = (e.target as HTMLElement).nextSibling;
     if (sibling == null) return;
 
-    let isHidden: boolean = (sibling as HTMLElement).classList.contains(
+    const isHidden: boolean = (sibling as HTMLElement).classList.contains(
       "hidden"
     );
     if (isHidden) {
@@ -23,13 +23,13 @@ export default function FAQ() {
   useEffect(() => {
     const fetchFAQ = async () => {
       try {
-        let response = await fetch(faq);
+        const response = await fetch(faq);
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        let data = await response.json();
+        const data = await response.json();
 
         if (data["faqs"] == null) {
           console.warn("FAQ data is null or empty.");
@@ -43,7 +43,7 @@ export default function FAQ() {
     };
 
     fetchFAQ();
-  }, [faq]);
+  }, []);
 
   return (
     <>
