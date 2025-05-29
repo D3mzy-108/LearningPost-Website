@@ -48,7 +48,7 @@ export default function InnovativeTools() {
       ),
       title: "Bookee: Universe of Knowledge",
       description:
-        "Your portal to a universe of knowledge. Immerse yourself in our galaxy of carefully curated textbooks and ebooks, spanning every subject and genre imaginable.",
+        "Explore our vast world of knowledge and immerse yourself in our galaxy of carefully curated textbooks and ebooks, spanning every subject and genre imaginable.",
     },
     {
       icon: (

@@ -13,9 +13,9 @@ export default function AnimatedBackground() {
 
       {/* SECOND CONTAINER */}
       <div
-        className="w-[175px] md:w-[250px] absolute -bottom-0 right-0 aspect-square bg-[#4c54e3] rounded-md moving-bg"
+        className="w-[175px] md:w-[250px] absolute -bottom-0 right-0 aspect-square bg-[#4c5be3] rounded-md moving-bg"
         style={{
-          boxShadow: "0 0 0 100px #4c54e3",
+          boxShadow: "0 0 0 100px #4c5be3",
         }}
       ></div>
     </div>

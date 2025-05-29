@@ -48,10 +48,10 @@ export default function Footer() {
               <p className="text-md text-black/60 mt-2">
                 Email:{" "}
                 <Link
-                  href="mailto:support@petropost.ng"
+                  href="mailto:info@learningpost.ng"
                   className="underline italic"
                 >
-                  support@petropost.ng
+                  info@learningpost.ng
                 </Link>
               </p>
             </div>

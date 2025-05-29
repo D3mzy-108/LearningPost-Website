@@ -9,13 +9,13 @@ export default function Banner() {
       <div
         className="w-full min-h-[100vh] lg:min-h-[100vh] grid place-items-center"
         style={{
-          background: "linear-gradient(white, #FFFFFF80 25% 75%, white)",
+          background: "linear-gradient(white, #FFFFFF60 25% 75%, white)",
           backdropFilter: "blur(50px)",
         }}
       >
         <div className="w-full max-w-lg mx-auto text-center flex flex-col items-center">
           <h1
-            className="text-3xl md:text-4xl lg:text-5xl text-black font-bold"
+            className="text-4xl lg:text-5xl text-black font-bold"
             style={{
               lineHeight: "3.5rem",
             }}

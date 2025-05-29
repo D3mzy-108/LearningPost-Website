@@ -31,11 +31,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="w-full fixed top-0 left-0 backdrop-blur-lg z-5">
+        <div className="w-full fixed top-0 left-0 backdrop-blur-lg z-50">
           <Navbar />
         </div>
         <AnimatedBackground />
-        <div className="w-full absolute top-0 left-0 z-1">
+        <div className="w-full absolute top-0 left-0 z-10">
           {children}
           <Footer />
         </div>

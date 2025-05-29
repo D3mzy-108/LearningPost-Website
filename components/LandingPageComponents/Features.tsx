@@ -25,6 +25,11 @@ export default function Features() {
       subtitle:
         "Get personalized recommendations and support from our AI study companion to master tough concepts and reach your learning goals.",
     },
+    {
+      title: "SmartLinks",
+      subtitle:
+        "Tap to access supplementary materials and enriching explanations, allowing you to deep dive into any topic without interrupting your flow.",
+    },
   ];
   const [displayIsBig, setDisplayIsBig] = useState(() => {
     if (typeof window !== "undefined") {
@@ -68,7 +73,7 @@ export default function Features() {
             </p>
           </div>
 
-          <div className="w-full lg:max-w-5/6 mx-auto flex flex-col items-center justify-center gap-6">
+          <div className="w-full lg:max-w-5/6 mx-auto flex max-lg:flex-col items-center justify-center gap-6">
             <div className="w-full max-w-md relative">
               <Image
                 src={appScreenshot}
@@ -78,19 +83,24 @@ export default function Features() {
               />
             </div>
             <div className="w-full max-w-4xl">
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-px rounded-xl border border-gray-300 overflow-hidden shadow-md">
+              <ul className="grid grid-cols-1 gap-px">
                 {features.map((feature, index) => {
                   return (
-                    <li
-                      key={index}
-                      className="w-full bg-gray-50 shadow-md py-2 px-3"
-                    >
-                      <span className="font-medium text-black text-lg">
-                        {feature.title}
-                      </span>
-                      <p className="text-black/80 pl-2 py-1">
-                        {feature.subtitle}
-                      </p>
+                    <li key={index} className={"w-full px-4 text-start"}>
+                      <div className="w-full flex gap-4">
+                        <div className="w-[20px] flex flex-col items-center">
+                          <div className="w-full aspect-square rounded-full bg-black/90"></div>
+                          <div className="w-[2px] bg-black/90 h-full"></div>
+                        </div>
+                        <div className="flex-1 w-full pb-6">
+                          <span className="font-medium text-black text-lg">
+                            {feature.title}
+                          </span>
+                          <p className="text-black/80 py-1">
+                            {feature.subtitle}
+                          </p>
+                        </div>
+                      </div>
                     </li>
                   );
                 })}

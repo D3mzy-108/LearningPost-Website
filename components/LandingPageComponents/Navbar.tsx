@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export const navLinks = () => {
   return [
-    { href: "/#features", text: "Features" },
+    { href: "/learningpost-pro", text: "LearningPost Pro" },
     { href: "/our-story", text: "Our Story" },
     { href: "/faq", text: "FAQ" },
     { href: "/terms-and-conditions", text: "T&C" },

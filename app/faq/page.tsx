@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { faq } from "@/utils/urls.json";
+import apiUrls from "@/utils/urls.json";
 
 export default function FAQ() {
   const toggleQuestions = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -23,7 +23,7 @@ export default function FAQ() {
   useEffect(() => {
     const fetchFAQ = async () => {
       try {
-        const response = await fetch(faq);
+        const response = await fetch(apiUrls.faq);
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);

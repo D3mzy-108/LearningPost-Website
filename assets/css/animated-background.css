@@ -1,5 +1,5 @@
 .moving-bg {
-    animation: rotate 8s linear infinite;
+    animation: rotate 10s linear infinite;
 }
 
 @keyframes rotate {

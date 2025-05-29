@@ -8,7 +8,8 @@ export default function OurStory() {
   const perspectives = [
     {
       id: "daughter",
-      title: "The LearningPost Story: A Daughter's Voice, A Learner's Journey",
+      name: "A Learner's Journey",
+      title: "A Daughter's Voice, A Learner's Journey",
       content: (
         <>
           <p className="mb-4">
@@ -79,10 +80,12 @@ export default function OurStory() {
           <p className="mb-4">Ready to join the Quest?</p>
         </>
       ),
+      author: "Temiloluwa Ayinde",
     },
     {
       id: "son",
-      title: "The LearningPost Story: A Son, A Sister, A Solution",
+      name: "A Solution",
+      title: "A Son, A Sister, A Solution",
       content: (
         <>
           <p className="mb-4">
@@ -121,9 +124,10 @@ export default function OurStory() {
             single student who just wanted to understand.
           </p>
           <p className="mb-4">
-            But as we watched it work—first for her, then for her younger
-            brother who scored above 300 in his UTME a year later—we realized we
-            had stumbled on something much bigger.
+            But as we watched it work; first for her, then for her younger
+            brother who comfortably completed his UTME a year later, ranking in
+            the top 1 percentile nationwide, we realized we had stumbled on
+            something much bigger.
           </p>
           <p className="mb-4">
             This wasn&apos;t just about helping one girl. This was about
@@ -161,11 +165,12 @@ export default function OurStory() {
           <p className="mb-4">And we&apos;re just getting started.</p>
         </>
       ),
+      author: "Demilade Ayinde, Co-Founder",
     },
     {
       id: "father",
-      title:
-        "The LearningPost Story: A Father, A Daughter, & A Family's Mission",
+      name: "A Mission",
+      title: "A Father, A Daughter, & A Family's Mission",
       content: (
         <>
           <p className="mb-4">
@@ -265,6 +270,7 @@ export default function OurStory() {
           <p className="mb-4">One future at a time.</p>
         </>
       ),
+      author: "Gbenga Ayinde, Co-Founder",
     },
   ];
 
@@ -278,45 +284,49 @@ export default function OurStory() {
     >
       <div className="max-w-6xl mx-auto pt-[20vh] pb-12">
         {/* Section Title */}
-        <h1 className="text-5xl sm:text-6xl font-extrabold text-center text-black mb-16 leading-tight">
-          Our Story
+        <h1 className="text-5xl sm:text-6xl font-extrabold text-center text-black mb-12 leading-tight">
+          The LearningPost Story
         </h1>
 
-        {/* Tab Navigation */}
-        <div className="flex justify-center mb-8 flex-wrap gap-4">
-          {perspectives.map((p) => (
-            <button
-              key={p.id}
-              onClick={() => setActiveTab(p.id)}
-              className={`
-              px-4 py-2 mb-2 rounded-xl font-medium transition-all duration-300 cursor-pointer
+        <div className="max-w-3xl mx-auto bg-white/30 rounded-xl overflow-hidden shadow-lg border-t-4 border-blue-300">
+          {/* Tab Navigation */}
+          <div className="w-full overflow-auto bg-white/30 py-4 px-6 sm:px-8">
+            <div className="flex justify-start gap-4">
+              {perspectives.map((p) => (
+                <button
+                  key={p.id}
+                  onClick={() => setActiveTab(p.id)}
+                  className={`
+              px-4 py-2 mb-2 transition-all duration-300 cursor-pointer
               ${
                 activeTab === p.id
-                  ? "bg-blue-100 text-blue-600 shadow-sm"
-                  : "bg-gray-200 text-gray-700 shadow-sm"
+                  ? "text-blue-600 border-b-2 border-b-blue-600"
+                  : "text-gray-700 border-b-2 border-b-gray-400"
               }
             `}
-            >
-              {p.id.charAt(0).toUpperCase() + p.id.slice(1)}&apos;s Perspective
-            </button>
-          ))}
-        </div>
-
-        {/* Tab Content */}
-        <div className="max-w-3xl mx-auto bg-white/30 rounded-xl shadow-lg p-6 sm:p-8 border-t-4 border-blue-300">
-          {perspectives.map((p) => (
-            <div
-              key={p.id}
-              className={`${activeTab === p.id ? "block" : "hidden"}`}
-            >
-              <h2 className="text-3xl sm:text-4xl font-bold text-black mb-6 leading-snug">
-                {p.title}
-              </h2>
-              <div className="prose prose-lg text-gray-700 leading-relaxed">
-                {p.content}
-              </div>
+                >
+                  {p.name}
+                </button>
+              ))}
             </div>
-          ))}
+          </div>
+          <div className="w-full pb-6 pt-2 px-6 sm:px-8">
+            {/* Tab Content */}
+            {perspectives.map((p) => (
+              <div
+                key={p.id}
+                className={`${activeTab === p.id ? "block" : "hidden"}`}
+              >
+                <h2 className="text-3xl sm:text-4xl font-bold text-black mb-6 leading-snug">
+                  {p.title}
+                </h2>
+                <div className="prose prose-lg text-gray-700 leading-relaxed">
+                  {p.content}
+                  <p className="italic font-bold">~ {p.author}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

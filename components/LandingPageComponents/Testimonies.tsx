@@ -6,19 +6,19 @@ export default function Testimonies() {
       author: "Mrs Olamide M.",
       role: "Parent",
       testimony:
-        "LearningPost has transformed my daughter&apos;s approach to studying. She actually enjoys learning now, and her grades have seen a significant boost!",
+        "LearningPost has transformed my daughter's approach to studying. She actually enjoys learning now, and her grades have seen a significant boost!",
     },
     {
       author: "Emmanuella A.",
       role: "Student",
       testimony:
-        "The quests and personalized feedback make even the toughest subjects engaging. It feels like playing a game, but I&apos;m learning so much!",
+        "The quests and personalized feedback make even the toughest subjects engaging. It feels like playing a game, but I'm learning so much!",
     },
     {
       author: "Mr Adeyemi O.",
       role: "Teacher",
       testimony:
-        "As an educator, I appreciate the platform&apos;s adaptability. The personalized pathways truly cater to individual learning styles, making my job easier and more effective.",
+        "As an educator, I appreciate the platform's adaptability. The personalized pathways truly cater to individual learning styles, making my job easier and more effective.",
     },
   ];
 
