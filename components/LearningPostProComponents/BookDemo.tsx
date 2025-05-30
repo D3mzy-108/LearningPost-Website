@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function BookDemo() {
   return (
     <>
-      <section className="w-full py-16 md:py-24 bg-white">
+      <section className="w-full px-6 md:px-12 py-16 md:py-24 bg-white">
         <div className="w-full max-w-3xl mx-auto text-center">
           <p className="text-black/80">
             {
