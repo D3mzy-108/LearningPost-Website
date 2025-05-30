@@ -1,7 +1,4 @@
 "use client";
-import Image from "next/image";
-import logo from "@/assets/images/logo.png";
-import DownloadButtons from "../DownloadButtons";
 import Link from "next/link";
 
 export default function Banner() {
