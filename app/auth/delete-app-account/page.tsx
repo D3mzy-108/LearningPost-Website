@@ -22,7 +22,6 @@ export default function DeleteAccount({}) {
         user_display_name: formData.get("user_display_name")?.toString().trim(),
         reason: formData.get("reason")?.toString().trim(),
       };
-      console.log(req_body);
 
       // SEND POST REQUEST TO API
       var response = await fetch(
@@ -38,7 +37,6 @@ export default function DeleteAccount({}) {
 
       // GET RESPONSE FROM API
       const data = await response.json();
-      console.log(data);
       setIsLoading(false);
 
       if (data.success) {
