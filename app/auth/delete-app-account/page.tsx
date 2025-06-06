@@ -25,13 +25,16 @@ export default function DeleteAccount({}) {
       console.log(req_body);
 
       // SEND POST REQUEST TO API
-      var response = await fetch("http://localhost:2002/api/delete-account/", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(req_body),
-      });
+      var response = await fetch(
+        "https://api.learningpost.ng/api/delete-account/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(req_body),
+        }
+      );
 
       // GET RESPONSE FROM API
       const data = await response.json();
