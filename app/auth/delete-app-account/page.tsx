@@ -24,7 +24,7 @@ export default function DeleteAccount({}) {
       };
 
       // SEND POST REQUEST TO API
-      var response = await fetch(
+      const response = await fetch(
         "https://api.learningpost.ng/api/delete-account/",
         {
           method: "POST",
