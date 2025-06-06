@@ -90,8 +90,7 @@ export default function DeleteAccount({}) {
                   Registered Email Address:
                   <br />
                   <span className="text-sm text-black/60">
-                    To verify your account, please enter the email address you
-                    used to register.
+                    {`To verify your account, please enter the email address you used to register.`}
                   </span>
                 </label>
                 <input
@@ -110,8 +109,7 @@ export default function DeleteAccount({}) {
                   Username:
                   <br />
                   <span className="text-sm text-black/60">
-                    Please provide your username exactly as it appears within
-                    the app (e.g., "JohnDoe123").
+                    {`Please provide your username exactly as it appears within the app (e.g., "JohnDoe123").`}
                   </span>
                 </label>
                 <input
@@ -130,11 +128,10 @@ export default function DeleteAccount({}) {
             <section className="w-full">
               <div className="">
                 <label htmlFor="reason" className="text-black/80 text-md">
-                  Tell Us Why You're Leaving
+                  {`Tell Us Why You're Leaving`}
                   <br />
                   <span className="text-sm text-black/60">
-                    We're sorry to see you go! Please tell us why you've decided
-                    to delete your account. Your feedback helps us improve.
+                    {`We're sorry to see you go! Please tell us why you've decided to delete your account. Your feedback helps us improve.`}
                   </span>
                 </label>
                 <input
