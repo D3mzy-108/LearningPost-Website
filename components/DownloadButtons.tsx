@@ -2,6 +2,7 @@
 import playStoreButton from "@/assets/images/playstore-btn.png";
 import appStoreButton from "@/assets/images/applestore-btn.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function DownloadButtons({
   buttonWidth,
@@ -10,10 +11,10 @@ export default function DownloadButtons({
 }) {
   return (
     <div className="flex space-x-4">
-      <button
-        className="bg-transparent border-none outline-none"
+      <Link
+        href="https://play.google.com/store/apps/details?id=com.posthub.learningpost"
+        target="_blank"
         aria-label="Download Android"
-        onClick={() => alert("Failed to redirect to app store")}
       >
         <Image
           src={playStoreButton}
@@ -21,19 +22,24 @@ export default function DownloadButtons({
           width={buttonWidth}
           height={buttonWidth / 3}
         />
-      </button>
-      <button
-        className="bg-transparent border-none outline-none"
-        aria-label="Download IOS"
-        onClick={() => alert("Failed to redirect to app store")}
-      >
-        <Image
-          src={appStoreButton}
-          alt="App Store"
-          width={buttonWidth}
-          height={buttonWidth / 3}
-        />
-      </button>
+      </Link>
+      <div className="w-fit relative text-center">
+        <button
+          className="bg-transparent border-none outline-none opacity-50"
+          aria-label="Download IOS"
+          disabled
+        >
+          <Image
+            src={appStoreButton}
+            alt="App Store"
+            width={buttonWidth}
+            height={buttonWidth / 3}
+          />
+        </button>
+        <div className="absolute -bottom-4 text-black/60 text-sm text-center w-full">
+          Coming soon.
+        </div>
+      </div>
     </div>
   );
 }

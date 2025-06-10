@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function TermsAndConditions() {
   return (
     <>
@@ -434,8 +436,15 @@ export default function TermsAndConditions() {
             <div className="w-full pl-3">
               <div className="text-md font-bold text-black">- Contact Us</div>
               <div className="pl-3 text-sm">
-                Email help@learningpost.ng if you have any questions about
-                LearningPost or our privacy practices.
+                Email{" "}
+                <Link
+                  href={"mailto:info@learningpost.ng"}
+                  className="text-blue-600 hover:underline"
+                >
+                  info@learningpost.ng
+                </Link>{" "}
+                if you have any questions about LearningPost or our privacy
+                practices.
               </div>
             </div>
           </div>

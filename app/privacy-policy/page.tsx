@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function PrivacyPolicy() {
   return (
     <>
@@ -342,7 +344,13 @@ export default function PrivacyPolicy() {
               </div>
               <div className="pl-3 text-sm">
                 If you have any questions about our privacy practices or this
-                policy, please contact us:
+                policy, please contact us at{" "}
+                <Link
+                  href={"mailto:info@learningpost.ng"}
+                  className="text-blue-600 hover:underline"
+                >
+                  info@learningpost.ng
+                </Link>
               </div>
             </div>
           </div>
